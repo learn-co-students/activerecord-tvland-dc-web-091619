@@ -7,3 +7,5 @@ class Show < ActiveRecord::Base
     self.actors.map {|actor| actor.full_name}
   end
 end
+
+TEST1
